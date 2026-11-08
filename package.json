@@ -1,0 +1,14 @@
+{
+  "name": "ascii-table-core",
+  "version": "0.1.0",
+  "description": "ASCII table renderer: bordered text, header separator, per-column alignment. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/table.test.js",
+    "demo": "node bin/table.mjs --assert"
+  }
+}
